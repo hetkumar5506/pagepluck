@@ -3,7 +3,7 @@
 > A modern, local-only Chrome Extension to inspect, pluck, and export images, inline SVGs, CSS backgrounds, color palettes, and fonts from any webpage directly in your side panel.
 
 <p align="center">
-  <img src="public/icon/128.png" alt="PagePluck - Chrome Extension Logo" width="96" height="96" />
+  <img src="assets/brand/social-preview.png" alt="PagePluck - Web Asset & Design Token Exporter Hero Banner" width="100%" />
 </p>
 
 <p align="center">
