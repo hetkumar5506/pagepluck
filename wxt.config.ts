@@ -7,7 +7,7 @@ export default defineConfig({
     name: 'PagePluck — Web Asset & Design Token Exporter',
     description:
       'Extract images, inline SVGs, CSS backgrounds, color palettes, and fonts from any website directly into the Chrome side panel. 100% local.',
-    permissions: ['downloads', 'sidePanel'],
+    permissions: ['downloads', 'sidePanel', 'clipboardWrite'],
     host_permissions: ['<all_urls>'],
     icons: { 16: 'icon/16.png', 32: 'icon/32.png', 48: 'icon/48.png', 128: 'icon/128.png' },
     action: {

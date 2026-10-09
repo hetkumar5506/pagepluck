@@ -1,7 +1,7 @@
 {
   "name": "pagepluck",
   "displayName": "PagePluck — Web Asset & Design Token Exporter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Fast, local-only Chrome extension to inspect, pluck, and export images, inline SVGs, CSS backgrounds, color palettes, and fonts from any website.",
   "keywords": [
     "chrome-extension",
