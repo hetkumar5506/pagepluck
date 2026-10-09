@@ -76,14 +76,16 @@ When source files change, WXT rebuilds them. If Chrome does not show a change, c
 | Goal | File |
 | --- | --- |
 | Change extraction behavior | `entrypoints/content.ts` |
-| Change side-panel behavior | `entrypoints/sidepanel/App.tsx` |
+| Change side-panel behavior, copy or download logic | `entrypoints/sidepanel/App.tsx` |
 | Change visual design/theme | `entrypoints/sidepanel/style.css` |
-| Change panel HTML metadata | `entrypoints/sidepanel/index.html` |
+| Change panel HTML metadata or the boot theme | `entrypoints/sidepanel/index.html` |
 | Change manifest/permissions/icons | `wxt.config.ts` |
 | Change shared asset data types | `lib/types.ts` |
+| Change theme tokens or the light/dark toggle | `lib/theme.ts` + `entrypoints/sidepanel/style.css` |
 | Replace runtime icons | `public/icon/*.png` |
 | Edit the complex manual test page | `test-pages/asset-lab.html` |
 | Update browser tests | `tests/e2e.mjs` |
+| Restore agent skills | `npx skills experimental_install` |
 
 ## 7. Test changes
 
@@ -97,9 +99,14 @@ npm run build
 Full verification before a release:
 
 ```bash
-npx playwright install chromium   # only needed once per machine
+npx playwright install chromium   # only needed once per machine; needs network access
 npm run check
 ```
+
+The E2E suite builds the extension, loads it into real Chromium, and drives the side panel.
+It asserts extraction counts, image multi-select, double-click copy on the Images and SVGs
+tabs, single-click copy on Colors and Fonts, and the full light/dark theme round-trip.
+The final step navigates to `https://example.com`, so the suite needs internet access.
 
 `npm run check` runs strict TypeScript checks, builds and tests the extension in Chromium, scans a live HTTPS page, and audits runtime dependencies.
 
@@ -114,7 +121,7 @@ Open `http://localhost:4174/asset-lab.html`, launch PagePluck, and check Images,
 
 ## 8. Build a release
 
-Update the version first:
+Update the version first (and record the change in `docs/CHANGELOG.md`):
 
 ```bash
 npm version patch --no-git-tag-version
@@ -158,7 +165,7 @@ Initialize version control once:
 ```bash
 git init
 git add .
-git commit -m "Build PagePluck 0.2.0"
+git commit -m "Build PagePluck 0.2.1"
 ```
 
 For future work:
