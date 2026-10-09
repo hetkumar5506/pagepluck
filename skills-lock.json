@@ -5,7 +5,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/api-and-interface-design/SKILL.md",
-      "computedHash": "26f5a9e7abfd332d7a2e5887cf19bddd3393f47514c379b36bf227c1f15cdec4"
+      "computedHash": "8bdbf1fca81bef9258d7e0d9726f933f25677ec8537792e084a3fb7c54acf2ba"
     },
     "browser-testing-with-devtools": {
       "source": "addyosmani/agent-skills",
@@ -23,7 +23,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/code-review-and-quality/SKILL.md",
-      "computedHash": "03790162b6550eddca4dc66b24ba70df417479499972abe7ccd451d191d2b0fe"
+      "computedHash": "0667c7af98996c0bec4fb0eb444680bdbf1da1d6a3cfdf5dbe8cbd350d9d2752"
     },
     "code-simplification": {
       "source": "addyosmani/agent-skills",
@@ -35,7 +35,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/constraint-driven-development/SKILL.md",
-      "computedHash": "b4180cd9c4ed2af6c8310c4f4e9bb5003ef8eccfe65a7f288ba7f9842dbd19a5"
+      "computedHash": "7cdf20ff7d27eb3103b206033a1d87af7afe4a648162f09cd382fc8e3cb9a42b"
     },
     "context-engineering": {
       "source": "addyosmani/agent-skills",
@@ -59,7 +59,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/documentation-and-adrs/SKILL.md",
-      "computedHash": "f13054e8bd32a432df3e0e68240758cf61a9e8817aa8540f9d9831f427c47e0e"
+      "computedHash": "2ed98ee303c23d228c76c7bfe6a5f0e5c0571df81670e5eb099f14929eac47e9"
     },
     "doubt-driven-development": {
       "source": "addyosmani/agent-skills",
@@ -107,7 +107,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/performance-optimization/SKILL.md",
-      "computedHash": "f0a8e3bdb9b7d199434c2a5dd7cbb7d3cf69d802029cde1ef5daa07bffa27efc"
+      "computedHash": "c88cbe0824ce94b4bc2d2d43519dc717afc529db1672388c2a5c7d695faccb8c"
     },
     "planning-and-task-breakdown": {
       "source": "addyosmani/agent-skills",
@@ -119,7 +119,7 @@
       "source": "DietrichGebert/ponytail",
       "sourceType": "github",
       "skillPath": "skills/ponytail/SKILL.md",
-      "computedHash": "210fa0831f649ce9f8a305f7b7c8cf2a0dd09ac4dd53067109941b96e7811d4e"
+      "computedHash": "99f0589e5646b46da07b9419a5daa178004b3dd8930fec528918a51ab07f5efc"
     },
     "security-and-hardening": {
       "source": "addyosmani/agent-skills",
@@ -131,7 +131,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/shipping-and-launch/SKILL.md",
-      "computedHash": "65a2be8a52839ec029b779eaf2b59d981fb0956e1228a87c9897f5af8b672f1a"
+      "computedHash": "d1997f520c069fcd351427a0e116b668ceba7b95facbc97c9ac75363d9febcfd"
     },
     "source-driven-development": {
       "source": "addyosmani/agent-skills",
@@ -143,7 +143,7 @@
       "source": "addyosmani/agent-skills",
       "sourceType": "github",
       "skillPath": "skills/spec-driven-development/SKILL.md",
-      "computedHash": "d4dc15caa8d97749267da68676aeadff3fb5b8d9a4462664937137ac09610e4f"
+      "computedHash": "90a53ee823e49fd1518a01e6cf64968d4848bce3fc0b0115b1c19b7e5a87a5ca"
     },
     "test-driven-development": {
       "source": "addyosmani/agent-skills",
@@ -156,6 +156,18 @@
       "sourceType": "github",
       "skillPath": "skills/using-agent-skills/SKILL.md",
       "computedHash": "4221dc84c943696829025a42c7961b257afdb8f1ba20af42463434a0d9c03812"
+    },
+    "vercel-react-best-practices": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/react-best-practices/SKILL.md",
+      "computedHash": "3219a1944e404ffc14d1d9d6aef6dd2e3855b81387ee0a044ccbfe14d34c2357"
+    },
+    "web-design-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/web-design-guidelines/SKILL.md",
+      "computedHash": "a6a44d5498f7e8f68289902f3dedfc6f38ae0cee1e96527c80724cf27f727c2a"
     }
   }
 }
